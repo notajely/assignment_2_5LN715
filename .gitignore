@@ -6,3 +6,4 @@ data/recordings/
 *.txt
 *.log
 
+.DS_Store
