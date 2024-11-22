@@ -1,0 +1,8 @@
+# .gitignore
+data/recordings/
+*.wav
+*.mp3
+*.csv
+*.txt
+*.log
+
