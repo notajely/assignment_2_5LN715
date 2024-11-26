@@ -7,3 +7,42 @@ data/recordings/
 *.log
 
 .DS_Store
+
+# 忽略所有 .log 文件
+*.log
+
+# 忽略 macOS 系统生成的 .DS_Store 文件
+.DS_Store
+
+# 忽略所有临时文件
+*.tmp
+
+# 忽略所有备份文件
+*.bak
+
+# 忽略所有编译生成的文件
+*.o
+*.obj
+*.exe
+*.dll
+
+# 忽略所有 Python 编译生成的文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略所有 node_modules 目录
+node_modules/
+
+# 忽略所有日志文件
+logs/
+*.log
+
+# 忽略所有临时文件和目录
+tmp/
+temp/
+*.tmp
+
+# 忽略所有虚拟环境目录
+venv/
+env/
