@@ -36,7 +36,7 @@ def fit_linear_model():
     # p_value: Probability that the slope is significantly different from zero 
     #            (small values indicate strong evidence of a relationship)
     # std_err: Standard error of the slope estimate 
-    slope, intercept, r_value, p_value, std_err = stats.linregress(X.flatten(), y)  # Includes p-value
+    slope, intercept, r_value, p_value, std_err = stats.linregress(X.flatten(), y)
 
     # Print the regression metrics
     print(f"R² = {r_squared:.4f}")

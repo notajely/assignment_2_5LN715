@@ -39,7 +39,7 @@ def get_unigrams(train_sentences):
     unigram_freq = defaultdict(int)
     
     for sentence in train_sentences:
-        sentence = sentence.lower() # ！！！sentences 是列表，不能直接调用 .lower()，这会导致 AttributeError。
+        sentence = sentence.lower() 
         tokens = word_tokenize(sentence)
         for word in tokens:
             unigram_freq[word] += 1
@@ -193,7 +193,7 @@ def main():
     Note:
         Sentences are valid if they:
         - Don't contain special characters
-        - Aren't section titles
+        - Aren't title lines
         - Have at least 15 tokens
         - Contain all bigrams from bigram dictionary
     """
@@ -277,5 +277,3 @@ def main():
 if __name__ == "__main__":
     main()
     
-    
-# python get_surprisals.py wiki.train.raw wiki.test.raw
