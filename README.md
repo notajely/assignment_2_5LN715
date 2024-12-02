@@ -39,7 +39,7 @@ assignment_2_5LN715/
 ├── results/                        # Analysis results directory
 │   ├── data.csv                    # Duration and surprisal data combination
 │   ├── regression_plot.png 
-│   ├── regression_plot.png
+│   ├── duration_histogram.png
 │
 ├── README.md                       # Project description file
 ├── requirements.txt                # Python dependencies list
